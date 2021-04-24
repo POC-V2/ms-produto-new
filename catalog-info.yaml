@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "ms-produto"
+  description: "Backstage integration - springboot-grpc template"
+  tags:
+    - java
+  annotations:
+    github.com/project-slug: POC-V2/ms-produto-new
+    backstage.io/techdocs-ref: url:https://github.com/POC-V2/ms-produto-new
+    backstage.io/kubernetes-id: ms-produto
+    #backstage.io/kubernetes-label-selector: 'app.kubernetes.io/name=argocd-server'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "guest"
